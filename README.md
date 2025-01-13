@@ -1,10 +1,18 @@
 # Urban Computing Project
 
-## 🌳 Exploring the Relationship Between Urban Greenery and Crime Rates in New York City
+## Exploring the Relationship Between Urban Greenery and Crime Rates in New York City
 
 This repository contains the research and analysis conducted to explore how urban greenery, specifically trees, impacts crime rates across New York City. By leveraging various datasets and machine learning techniques, this project identifies patterns and correlations that can inform urban planning and public safety initiatives.
 
-## ✨ Features
+## Screenshots
+
+### Crime count heatmap
+![crime count](screenshots/crime-count.png)
+
+### Tree dbh mean heatmap
+![tree dbh](screenshots/dbh-mean.png)
+
+##  Features
 
 - **Data Cleaning and Feature Engineering**: Merging and transforming NYC tree census and crime datasets for analysis.
 - **Exploratory Data Analysis**: Visual insights through scatterplots and heatmaps to understand trends.
@@ -12,7 +20,7 @@ This repository contains the research and analysis conducted to explore how urba
 - **Spatial Analysis**: Heatmaps showcasing crime and tree health distribution across NYC zip codes.
 - **Decision Tree Classifier**: Feature importance analysis to identify key factors influencing crime rates.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 urban-computing/
@@ -24,13 +32,13 @@ urban-computing/
 └── requirements.txt         # List of dependencies
 ```
 
-## 📊 Datasets Used
+##  Datasets Used
 
 - **NYC Tree Census (2015)** - Data on tree health, location, and species.
 - **NYC Crime Data (2015)** - Crime incidents and penalties data.
 - **NYC Zip Code GeoJSON** - Spatial boundaries for visual analysis.
 
-## 🛠️ Technologies and Tools
+##  Technologies and Tools
 
 - **Python**
 - **Pandas, NumPy** for data analysis
@@ -38,7 +46,7 @@ urban-computing/
 - **Scikit-learn** for machine learning models
 - **GeoPandas** for spatial data analysis
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. **Clone the Repository:**
    ```bash
@@ -54,20 +62,20 @@ urban-computing/
    jupyter notebook
    ```
 
-## 📝 Usage
+##  Usage
 
 - Explore the `Notebooks/` for data cleaning, EDA, and modeling.
 - Use `Scripts/` for feature engineering and visualization generation.
 - Check `Results/` for generated heatmaps and clustering outputs.
 
-## 🔍 Key Findings
+##  Key Findings
 
 - **Healthier Trees Correlate with Lower Crime Rates:** Areas with well-maintained trees had fewer crime penalties.
 - **Tree Count vs. Crime Penalty:** More trees in a zip code correlated with less severe crimes.
 - **Clustering Analysis:** K-Means clustering revealed distinct groupings of neighborhoods based on tree health and crime.
 - **Spatial Insights:** Heatmaps highlighted that greener neighborhoods experienced lower crime rates.
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository.
 2. Create your feature branch (`git checkout -b feature-name`).
